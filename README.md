@@ -14,6 +14,8 @@ brew bundle
 
 **Setup environment**
 
+Create a `.envrc` file from [the example provided](.envrc.example) and follow [the included directions](.envrc.example) to populate the required environment variables.
+
 ```shell
 # populate .envrc
 cp .envrc.example .envrc
