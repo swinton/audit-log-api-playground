@@ -1,0 +1,13 @@
+# The root of the GitHub API, you shouldn't need to change this
+export GITHUB_API_ROOT=https://api.github.com
+
+# The ID of your GitHub GITHUB_APP_ID
+# Your GitHub App must have the `organization_administration` read permission
+export GITHUB_APP_ID=
+
+# The path to your GitHub App's private key file (the .pem file)
+export GITHUB_APP_PRIVATE_KEY_PATH=
+
+# The organization where your GitHub App is installed
+# This organization must be on an Enterprise plan
+export ORG=
