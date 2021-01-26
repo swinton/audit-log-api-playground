@@ -1,6 +1,9 @@
 # gh (https://github.com/cli/cli): GitHub’s official command line tool
 brew "gh"
 
+# jq (https://stedolan.github.io/jq/): lightweight and flexible command-line JSON processor
+brew "jq"
+
 # direnv (https://direnv.net): load and unload environment variables depending on the current directory
 brew "direnv"
 
