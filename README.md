@@ -30,8 +30,6 @@ GH_TOKEN=$( ./installation.sh )
 
 ## Using the Audit Log REST API
 
-Authenticate your requests to the REST API with your `$GH_TOKEN`, e.g. using `gh`:
-
 ```shell
-gh api /orgs/$ORG/audit-log
+./auditorg
 ```
