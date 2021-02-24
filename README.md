@@ -33,3 +33,9 @@ GH_TOKEN=$( ./installation.sh )
 ```shell
 ./auditorg
 ```
+
+Include additional query params like so:
+
+```shell
+./auditorg "include=all&per_page=100"
+```
